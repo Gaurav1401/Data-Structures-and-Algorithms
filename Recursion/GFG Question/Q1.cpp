@@ -1,3 +1,4 @@
+// Print numbers from 1 to N without the help of loops.
 
 void printNos(int N)
 {
