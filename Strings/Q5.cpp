@@ -6,7 +6,7 @@ string caseConversion(string str){
     {
         if((str[i] >= 97) && (str[i] <= 122)) // considering lowercase letters only
             str[i] -= 32;
-        else
+        else // If any uppercase letter comes, ignore that
             continue;
     }
     
